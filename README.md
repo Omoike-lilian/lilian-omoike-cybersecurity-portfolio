@@ -5,7 +5,7 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 
 ---
 
-## 📊 Risk & Governance Projects
+##  Risk & Governance Projects
 | Project | Focus | Tools/Frameworks | Summary |
 |----------|-------|------------------|----------|
 | [SecureBank Quantitative Risk Analysis](Risk_Assessments/SecureBank/README.md) | Quantitative Risk (SLE, ARO, ALE, ROI) | Excel, NIST CSF, CIS Controls | Calculated financial risk exposure and ROI for mitigation controls |
@@ -14,7 +14,7 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 
 ---
 
-## 🔍 Vulnerability & Threat Analysis
+##  Vulnerability & Threat Analysis
 | Project | Focus | Tools | Summary |
 |----------|-------|-------|----------|
 | [Metasploitable Assessment](Vulnerability_Analysis/Metasploitable_Scan/README.md) | Host Vulnerability Scanning | Nmap, Nuclei, Nikto | Identified critical CVEs, mapped to CIS and NIST, and produced mitigation plan |
@@ -22,14 +22,14 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 
 ---
 
-## 🧠 SOC & Incident Response Projects
+##  SOC & Incident Response Projects
 | Project | Focus | Tools | Summary |
 |----------|-------|-------|----------|
 | [Log Analysis Report](SOC_Analysis/Log_Analysis/README.md) | SIEM & Threat Detection | Splunk, Wireshark, Sysmon | Analyzed system logs and identified anomalies related to CVEs and attack patterns |
 
 ---
 
-## 🎯 Core Skills Demonstrated
+##  Core Skills Demonstrated
 - Risk identification, scoring, and control evaluation (ISO 31000, NIST CSF)
 - Vulnerability management and web application security testing
 - Quantitative risk modeling (SLE, ARO, ALE, ROI)
