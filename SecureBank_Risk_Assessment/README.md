@@ -32,10 +32,12 @@ Multi-Factor Authentication (MFA) | $200,000 | $30,000 | 95% | $2,850,000 | 900%
 ## Visualizations
 The following visualizations were created to communicate the findings effectively:
 1. **Risk Exposure (Before vs. After Controls)** – Double bar chart
-2. Control Investment Breakdown – Stacked bar chart  
-3. ROI Comparison– Horizontal bar chart  
-4. Risk Reduction Over Time – Line graph  
-5. Risk Heat Map – Probability vs. Impact visualization  
+2. <img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/7a105256-e818-4edb-8e1b-117ea3755496" />
+
+3. Control Investment Breakdown – Stacked bar chart  
+4. ROI Comparison– Horizontal bar chart  
+5. Risk Reduction Over Time – Line graph  
+6. Risk Heat Map – Probability vs. Impact visualization  
 
 ---
 
