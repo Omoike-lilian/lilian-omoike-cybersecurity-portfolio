@@ -29,12 +29,8 @@ Risk Treatment – Proposed mitigation actions (avoid, transfer, mitigate, accep
 Documentation – Created a risk register and executive summary.
 
 Key Risks Identified
-Risk	Description	   Likelihood	   Impact	    Risk     Level	     Framework
-Phishing Attacks	Users falling for fake login prompts	High	High	Critical	NIST PR.AT-1
-Unauthorized Admin Access	Poor access control policies	Medium	High	High	CIS 5.2
-Unpatched Servers	Missing updates for key systems	High	High	Critical	NIST PR.IP-12
-Backup Failure	No verified recovery process	Medium	High	High	NIST RC.BC-1
-Data Breach Risk	Sensitive client data exposure	Medium	Critical	High	ISO 27001 A.8
+<img width="798" height="261" alt="image" src="https://github.com/user-attachments/assets/4fd69612-16ce-4778-930f-e9315b3e52b3" />
+
  Recommended Mitigation Actions
 
 Implement MFA and Conditional Access (Entra ID) for admin users.
