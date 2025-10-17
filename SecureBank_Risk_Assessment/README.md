@@ -66,4 +66,4 @@ Recommendations include deploying WAF, MFA, and API security gateways, expected 
 > **Author:** Lilian Omoike  
 > **Role:** Cybersecurity Analyst | Risk Management & GRC  
 > **Date:** October 2025  
-> **Repository:** [Back to Portfolio](../..)
+> **Repository:** [[Back to Portfolio](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/tree/main)](../..)
