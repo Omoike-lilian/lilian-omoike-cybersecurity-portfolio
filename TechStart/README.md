@@ -4,7 +4,7 @@ Overview
 This project simulates the role of a GRC Analyst performing a comprehensive risk assessment for TechStart Solutions, a mid-sized fintech company with 150 employees across three locations.
 The assessment identifies, analyzes, and proposes mitigations for key cybersecurity risks affecting operations, compliance, and data integrity.
 
-🎯 Objectives
+ Objectives
 
 Conduct a risk assessment using NIST and ISO 27005 principles.
 
@@ -64,7 +64,7 @@ CIS Critical Security Controls
 
 Risk Scoring (Qualitative + Quantitative)
 
-🧾 Executive Summary
+Executive Summary
 
 The assessment revealed high exposure to phishing, patch management, and data access risks, which could result in business disruption and financial losses.
 The implementation of security awareness programs, MFA, and automated patching is expected to reduce the overall risk exposure by up to 60%.
