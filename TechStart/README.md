@@ -29,6 +29,7 @@ Risk Treatment – Proposed mitigation actions (avoid, transfer, mitigate, accep
 Documentation – Created a risk register and executive summary.
 
 Key Risks Identified
+
 <img width="798" height="261" alt="image" src="https://github.com/user-attachments/assets/4fd69612-16ce-4778-930f-e9315b3e52b3" />
 
  Recommended Mitigation Actions
