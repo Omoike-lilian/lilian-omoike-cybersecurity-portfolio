@@ -29,7 +29,7 @@ Risk Treatment – Proposed mitigation actions (avoid, transfer, mitigate, accep
 Documentation – Created a risk register and executive summary.
 
 Key Risks Identified
-Risk	Description	Likelihood	Impact	Risk Level	Framework
+Risk	Description	   Likelihood	   Impact	    Risk     Level	     Framework
 Phishing Attacks	Users falling for fake login prompts	High	High	Critical	NIST PR.AT-1
 Unauthorized Admin Access	Poor access control policies	Medium	High	High	CIS 5.2
 Unpatched Servers	Missing updates for key systems	High	High	Critical	NIST PR.IP-12
