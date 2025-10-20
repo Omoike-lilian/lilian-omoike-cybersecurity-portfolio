@@ -1,0 +1,56 @@
+[CVE-2012-1823] [http] [high] http://192.168.15.133/index.php?-d+allow_url_include%3don+-d+auto_prepend_file%3dphp%3a//input
+[phpmyadmin-panel] [http] [info] http://192.168.15.133/phpMyAdmin/index.php [paths="/phpMyAdmin/index.php"]
+[phpinfo-files] [http] [low] http://192.168.15.133/phpinfo.php [paths="/phpinfo.php"]
+[http-trace:trace-request] [http] [info] http://192.168.15.133
+[external-service-interaction] [http] [info] http://192.168.15.133
+[waf-detect:apachegeneric] [http] [info] http://192.168.15.133
+[postgres-default-logins] [javascript] [high] 192.168.15.133:5432 [passwords="postgres",usernames="postgres"]
+[rlogin-detect] [javascript] [info] 192.168.15.133:513
+[ssh-auth-methods] [javascript] [info] 192.168.15.133:22 ["["publickey","password"]"]
+[samba-detect] [javascript] [info] 192.168.15.133:445 ["Samba 3.0.20-Debian"]
+[mysql-info] [javascript] [info] 192.168.15.133:3306 ["Version: 5.0.51a-3ubuntu5","Transport: tcp"]
+[pgsql-default-db] [javascript] [high] 192.168.15.133:5432 [database="postgres",password="postgres",usernames="postgres"]
+[pgsql-default-db] [javascript] [high] 192.168.15.133:5432 [database="template1",password="postgres",usernames="postgres"]
+[ntlm-info] [javascript] [info] 192.168.15.133:445 ["NTLM: Samba 3.0.20-Debian"]
+[smb-v1-supported] [javascript] [info] 192.168.15.133:445
+[smb-version-detect:smb-version] [javascript] [info] 192.168.15.133:445 ["SMB 1.0"]
+[ssh-diffie-hellman-logjam] [javascript] [low] 192.168.15.133:22
+[ssh-password-auth] [javascript] [info] 192.168.15.133:22
+[ssh-server-enumeration] [javascript] [info] 192.168.15.133:22 ["SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1"]
+[ssh-sha1-hmac-algo] [javascript] [info] 192.168.15.133:22
+[ssh-cbc-mode-ciphers] [javascript] [low] 192.168.15.133:22
+[pgsql-list-database] [javascript] [high] 192.168.15.133:5432 ["template1","template0","postgres"] [database="postgres",password="postgres",usernames="postgres"]
+[ssh-weakkey-exchange-algo] [javascript] [low] 192.168.15.133:22
+[pgsql-list-password-hashes] [javascript] [high] 192.168.15.133:5432 ["postgres : md53175bce1d3201d16594cebf9d7eb3f9d"] [database="postgres",password="postgres",usernames="postgres"]
+[ssh-weak-algo-supported] [javascript] [medium] 192.168.15.133:22
+[pgsql-list-users] [javascript] [high] 192.168.15.133:5432 ["postgres"] [database="postgres",password="postgres",usernames="postgres"]
+[ssh-weak-mac-algo] [javascript] [low] 192.168.15.133:22
+[pgsql-file-read] [javascript] [high] 192.168.15.133:5432 ["global","pg_clog","pg_subtrans","base","pg_tblspc","PG_VERSION","server.key","postmaster.opts","server.crt","pg_xlog","root.crt","pg_twophase","postmaster.pid","pg_multixact"] [database="postgres",password="postgres",usernames="postgres"]
+[pgsql-version-detect] [javascript] [high] 192.168.15.133:5432 ["PostgreSQL 8.3.1 on i486-pc-linux-gnu, compiled by GCC cc (GCC) 4.2.3 (Ubuntu 4.2.3-2ubuntu4)"] [database="postgres",password="postgres",usernames="postgres"]
+[esmtp-detect] [tcp] [info] 192.168.15.133:25
+[CVE-2011-2523] [tcp] [critical] 192.168.15.133:6200
+[CVE-2004-2687] [tcp] [high] 192.168.15.133:3632
+[ftp-detect] [tcp] [info] 192.168.15.133:21
+[nfs-v3-exposed] [tcp] [info] 192.168.15.133:2049
+[vsftpd-detect:version] [tcp] [info] 192.168.15.133:21 ["2.3.4"]
+[smtp-detect] [tcp] [info] 192.168.15.133:25
+[openssh-detect] [tcp] [info] 192.168.15.133:22 ["SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1"]
+[vnc-service-detect] [tcp] [info] 192.168.15.133:5900 ["RFB 003.003"]
+[smtp-commands-enum:ehlo] [tcp] [info] 192.168.15.133:25 ["SIZE 10240000","VRFY","ETRN","STARTTLS","ENHANCEDSTATUSCODES","8BITMIME","DSN","PIPELINING"]
+[tech-detect:php] [http] [info] http://192.168.15.133
+[ajp-protocol-detect] [javascript] [info] 192.168.15.133:8009 ["AJP Detected"]
+[CVE-2020-1938] [tcp] [critical] 192.168.15.133:8009
+[ftp-anonymous-login] [tcp] [medium] 192.168.15.133:21
+[apache-detect] [http] [info] http://192.168.15.133 ["Apache/2.2.8 (Ubuntu) DAV/2"]
+[php-detect] [http] [info] http://192.168.15.133 ["5.2.4"]
+[http-missing-security-headers:clear-site-data] [http] [info] http://192.168.15.133
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://192.168.15.133
+[http-missing-security-headers:strict-transport-security] [http] [info] http://192.168.15.133
+[http-missing-security-headers:referrer-policy] [http] [info] http://192.168.15.133
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://192.168.15.133
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://192.168.15.133
+[http-missing-security-headers:content-security-policy] [http] [info] http://192.168.15.133
+[http-missing-security-headers:permissions-policy] [http] [info] http://192.168.15.133
+[http-missing-security-headers:x-frame-options] [http] [info] http://192.168.15.133
+[http-missing-security-headers:x-content-type-options] [http] [info] http://192.168.15.133
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://192.168.15.133
