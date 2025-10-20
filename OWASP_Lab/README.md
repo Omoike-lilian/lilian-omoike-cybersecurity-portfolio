@@ -1,12 +1,12 @@
-# 🔐 OWASP Top 10 Vulnerability Assessment
+#  OWASP Top 10 Vulnerability Assessment
 
-## 🧠 Project Overview
+##  Project Overview
 This lab focuses on identifying, analyzing, and documenting common web application vulnerabilities aligned with the **OWASP Top 10 (2021)**.  
 Using intentionally vulnerable applications (**BodgeIt** and **WebGoat**), I performed hands-on testing to demonstrate real-world exploitation and remediation strategies.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Identify and classify vulnerabilities using the OWASP Top 10 framework.  
 - Assess the **risk and business impact** of each finding.  
 - Recommend security controls and mitigation actions.  
@@ -14,7 +14,7 @@ Using intentionally vulnerable applications (**BodgeIt** and **WebGoat**), I per
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 | Tool | Purpose |
 |------|----------|
 | **Burp Suite** | Intercepting and analyzing HTTP requests/responses |
@@ -25,7 +25,7 @@ Using intentionally vulnerable applications (**BodgeIt** and **WebGoat**), I per
 
 ---
 
-## ⚠️ Key Findings
+##  Key Findings
 
 | OWASP Category | Vulnerability | Affected App | Risk Level | Description |
 |----------------|----------------|---------------|-------------|--------------|
@@ -61,7 +61,9 @@ The findings highlight the need for stronger **secure development practices**, *
 The Burp Suite scan revealed several critical and high-risk issues including SQL injection points, authentication flaws, and insecure HTTP responses.  
 The dashboard view below summarizes detected vulnerabilities categorized by severity.
 
-![Burp Suite Scan Results](<img width="1078" height="452" alt="image" src="https://github.com/user-attachments/assets/937de216-e19b-47f2-9af0-dfc1686bf8c5" />
+![Burp Suite Scan Results]
+
+(<img width="1078" height="452" alt="image" src="https://github.com/user-attachments/assets/937de216-e19b-47f2-9af0-dfc1686bf8c5" />
 )
 *Figure 1: Burp Suite vulnerability scan summary highlighting OWASP Top 10 categories.*
 
@@ -70,7 +72,9 @@ The dashboard view below summarizes detected vulnerabilities categorized by seve
 ### 💬 Burp Suite Repeater — Exploitation Proof of Concept (PoC)
 This screenshot demonstrates a captured HTTP request being modified and replayed in Burp Suite's **Repeater** tab to validate the presence of a SQL injection vulnerability in the login form.
 
-![Burp Suite Repeater](<img width="1040" height="457" alt="image" src="https://github.com/user-attachments/assets/5e7bec4f-932e-443d-8abc-053d0cd415e0" />
+![Burp Suite Repeater]
+
+(<img width="1040" height="457" alt="image" src="https://github.com/user-attachments/assets/5e7bec4f-932e-443d-8abc-053d0cd415e0" />
 )
 *Figure 2: SQL injection test executed via Burp Suite Repeater tab.*
 
@@ -79,7 +83,9 @@ This screenshot demonstrates a captured HTTP request being modified and replayed
 ### 🧭 OWASP Mapping Visualization
 Each finding was mapped against the OWASP Top 10 2021 framework to identify key areas of weakness and remediation priorities.
 
-![OWASP Mapping Chart](<img width="577" height="605" alt="image" src="https://github.com/user-attachments/assets/5d149b9e-c027-4512-b827-d5361daf4923" />
+![OWASP Mapping Chart]
+
+(<img width="577" height="605" alt="image" src="https://github.com/user-attachments/assets/5d149b9e-c027-4512-b827-d5361daf4923" />
 )
 *Figure 3: Visual mapping of detected vulnerabilities to OWASP Top 10 categories.*
 
