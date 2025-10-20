@@ -30,6 +30,9 @@ Documentation – Created a risk register and executive summary.
 
 Key Risks Identified
 
+<img width="977" height="710" alt="image" src="https://github.com/user-attachments/assets/954dbc95-7eed-43e9-a57e-0e1da8c3906f" />
+
+
 <img width="798" height="261" alt="image" src="https://github.com/user-attachments/assets/4fd69612-16ce-4778-930f-e9315b3e52b3" />
 
  Recommended Mitigation Actions
