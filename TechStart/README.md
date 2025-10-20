@@ -30,9 +30,6 @@ Documentation – Created a risk register and executive summary.
 
 Key Risks Identified
 
-<img width="977" height="710" alt="image" src="https://github.com/user-attachments/assets/954dbc95-7eed-43e9-a57e-0e1da8c3906f" />
-
-
 <img width="798" height="261" alt="image" src="https://github.com/user-attachments/assets/4fd69612-16ce-4778-930f-e9315b3e52b3" />
 
  Recommended Mitigation Actions
@@ -48,6 +45,9 @@ Provide security awareness training for employees.
 Conduct quarterly risk reviews to track residual risk levels.
 
  Risk Matrix Snapshot
+ 
+<img width="977" height="710" alt="image" src="https://github.com/user-attachments/assets/d7ab49e5-a99e-4bfb-bf8e-423f51a3c37b" />
+ 
 
 <img width="485" height="173" alt="image" src="https://github.com/user-attachments/assets/4690756d-4f83-4f28-bfeb-1d594f4145a3" />
 
