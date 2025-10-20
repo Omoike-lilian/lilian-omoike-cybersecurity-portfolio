@@ -12,7 +12,6 @@ Using intentionally vulnerable applications (**BodgeIt** and **WebGoat**), I per
 - Strengthen understanding of **application security testing** and SDLC integration.
 
 
-
 ##  Tools Used
 | Tool | Purpose |
 |------|----------|
@@ -22,7 +21,6 @@ Using intentionally vulnerable applications (**BodgeIt** and **WebGoat**), I per
 | **Nikto** | Web server vulnerability assessment |
 | **Nuclei** | Automated CVE and OWASP-based template scanning |
 
----
 
 ##  Key Findings
 
@@ -37,14 +35,14 @@ Using intentionally vulnerable applications (**BodgeIt** and **WebGoat**), I per
 
 ---
 
-## 🧾 Executive Summary
+##  Executive Summary
 An assessment of the **OWASP BWA environment** revealed multiple severe web application vulnerabilities mapped to the **OWASP Top 10 (2021)**.  
 The most critical issues relate to **broken access control**, **unencrypted credentials**, and **injection flaws**, which pose a direct threat to data confidentiality and system integrity.  
 The findings highlight the need for stronger **secure development practices**, **continuous monitoring**, and **timely patch management**.
 
 ---
 
-## 🔧 Recommendations
+##  Recommendations
 1. **Enforce Access Control:** Restrict admin pages to authorized users with RBAC.  
 2. **Encrypt Data in Transit:** Enforce HTTPS with TLS 1.2+ across all endpoints.  
 3. **Input Validation:** Sanitize and validate all input fields to prevent SQL injection.  
@@ -52,54 +50,53 @@ The findings highlight the need for stronger **secure development practices**, *
 5. **Implement Logging & Monitoring:** Integrate SIEM alerts for failed logins and privilege escalation.  
 6. **Periodic Testing:** Perform quarterly vulnerability assessments and penetration tests.
 
----
 
-## 📊 Visual Evidence
 
-### 🧩 Burp Suite Dashboard — Vulnerability Scan Summary
+##  Visual Evidence
+
+###  Burp Suite Dashboard — Vulnerability Scan Summary
 The Burp Suite scan revealed several critical and high-risk issues including SQL injection points, authentication flaws, and insecure HTTP responses.  
 The dashboard view below summarizes detected vulnerabilities categorized by severity.
 
 Burp Suite Scan Results
 
-(<img width="1078" height="452" alt="image" src="https://github.com/user-attachments/assets/937de216-e19b-47f2-9af0-dfc1686bf8c5" />)
+<img width="1078" height="452" alt="image" src="https://github.com/user-attachments/assets/937de216-e19b-47f2-9af0-dfc1686bf8c5" />
+
 *Figure 1: Burp Suite vulnerability scan summary highlighting OWASP Top 10 categories.*
 
----
 
-### 💬 Burp Suite Repeater — Exploitation Proof of Concept (PoC)
+
+###  Burp Suite Repeater — Exploitation Proof of Concept (PoC)
 This screenshot demonstrates a captured HTTP request being modified and replayed in Burp Suite's **Repeater** tab to validate the presence of a SQL injection vulnerability in the login form.
 
 Burp Suite Repeater
 
-(<img width="1040" height="457" alt="image" src="https://github.com/user-attachments/assets/5e7bec4f-932e-443d-8abc-053d0cd415e0" />)
+<img width="1040" height="457" alt="image" src="https://github.com/user-attachments/assets/5e7bec4f-932e-443d-8abc-053d0cd415e0" />
+
 *Figure 2: SQL injection test executed via Burp Suite Repeater tab.*
 
----
 
-### 🧭 OWASP Mapping Visualization
+###  OWASP Mapping Visualization
 Each finding was mapped against the OWASP Top 10 2021 framework to identify key areas of weakness and remediation priorities.
 
 OWASP Mapping Chart
 
-(<img width="577" height="605" alt="image" src="https://github.com/user-attachments/assets/5d149b9e-c027-4512-b827-d5361daf4923" />)
+<img width="577" height="605" alt="image" src="https://github.com/user-attachments/assets/5d149b9e-c027-4512-b827-d5361daf4923" />
+
 *Figure 3: Visual mapping of detected vulnerabilities to OWASP Top 10 categories.*
 
----
 
 ##  Outcome
 - Demonstrated ability to identify, assess, and mitigate OWASP Top 10 vulnerabilities.  
 - Strengthened understanding of **application security testing** and secure coding.  
 - Reinforced skills in using **industry-standard tools** (Burp Suite, ZAP, Nmap, Nikto, Nuclei).  
 
----
 
-## 🏁 Next Steps
+##  Next Steps
 - Expand testing to include **automated CI/CD scanning** integration.  
 - Explore **secure API testing** and DevSecOps alignment.  
 - Document and visualize findings using dashboards or risk registers.
 
----
 
 👩🏽‍💻 *Author:* **Lilian Omoike**  
 📅 *Project Date:* 2025  
