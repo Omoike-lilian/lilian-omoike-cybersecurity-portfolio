@@ -103,11 +103,10 @@ sudo nmap --privileged -sV -sC -O -p- -oA initial_scan 192.168.15.133
 Nuclei (HTTP CVEs & templates)
 
 nuclei -u http://192.168.15.133 -t cves/ -o nuclei_scan_results.txt
-# or full template scan
+
 nuclei -target http://192.168.15.133 -t /path/to/nuclei-templates/ -o nuclei_full.txt
 
 <img width="1027" height="415" alt="image" src="https://github.com/user-attachments/assets/9c34f128-ef1b-4202-9665-73639dc44833" />
-
 
 
 
