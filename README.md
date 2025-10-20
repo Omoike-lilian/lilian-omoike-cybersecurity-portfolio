@@ -17,7 +17,7 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 ##  Vulnerability & Threat Analysis
 | Project | Focus | Tools | Summary |
 |----------|-------|-------|----------|
-| [Metasploitable Assessment](Vulnerability_Analysis/Metasploitable_Scan/README.md) | Host Vulnerability Scanning | Nmap, Nuclei, Nikto | Identified critical CVEs, mapped to CIS and NIST, and produced mitigation plan |
+| [Metasploitable Assessment](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/blob/main/Metasploitable%20Lab/READ.md) | Host Vulnerability Scanning | Nmap, Nuclei, Nikto | Identified critical CVEs, mapped to CIS and NIST, and produced mitigation plan |
 | [Critical OWASP Top 10 Analysis](Vulnerability_Analysis/OWASP_Top10_Case/README.md) | Web Application Security | Burp Suite, OWASP | Mapped vulnerabilities to OWASP Top 10 with remediation recommendations |
 
 ---
