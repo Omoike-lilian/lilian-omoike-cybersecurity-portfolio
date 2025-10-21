@@ -1,5 +1,5 @@
-# 🧾 Security Log Analysis & Threat Investigation  
-**Author:** Lilian Omoike  
+#  Security Log Analysis & Threat Investigation  
+
 **Date:** September 2025  
 
 
@@ -80,13 +80,6 @@ This project involved analyzing simulated enterprise log data to identify recurr
 - Correlated attack patterns across systems to identify persistent threats.  
 - Applied CVE mapping to contextualize real-world vulnerabilities.  
 - Enhanced SOC analytical and incident reporting skills.  
-
-
-
-##  Artifacts  
--  **Log_Analysis_Report.pdf** (Detailed report with screenshots and trend charts)  
-- 🖼 **Incident_Heatmap.png**  
-- 🖼 **CVE_Distribution_Chart.png**
 
 
 ##  Framework Alignment  
