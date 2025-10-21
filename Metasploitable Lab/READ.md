@@ -1,130 +1,95 @@
-Metasploitable Lab — Recon, Scanning & Remediation
+#  Metasploitable Vulnerability Assessment
 
-Purpose: Documented hands-on vulnerability discovery, validation, and remediation exercises against an isolated Metasploitable lab host using nmap, nuclei, and nikto. This project is for learning, reporting, and demonstrating defensive recommendations — no exploit payloads are included.
+##  Project Overview
+This project involved conducting a comprehensive vulnerability assessment on a **Metasploitable 2** server — a deliberately vulnerable Linux machine used for penetration testing and security training.  
+The goal was to identify and document **critical security flaws** mapped to frameworks such as **CIS Controls**, **NIST Cybersecurity Framework (CSF)**, and **OWASP Top 10**.
 
-⚠️ Safety & Ethics (Read first)
+The assessment simulated a real-world enterprise audit workflow — from reconnaissance and vulnerability discovery to reporting and remediation planning.
 
-Only run these VMs on an isolated lab network (host-only or air-gapped).
 
-Do not target systems you do not own or lack explicit written permission to test.
+##  Objectives
+- Identify critical and high-risk vulnerabilities across network and web layers.  
+- Map each finding to applicable controls (CIS, NIST CSF).  
+- Recommend prioritized remediation and risk mitigation strategies.  
+- Strengthen practical experience in vulnerability assessment, reporting, and risk communication.
 
-This repo contains sanitized outputs and remediation guidance; raw or sensitive outputs should be stored in a private repository only.
 
-All exploitation steps in the lab were performed in a controlled environment for learning — no weaponized code is published here.
+##  Tools & Methodology
+| Phase | Tools Used | Purpose |
+|-------|-------------|----------|
+| Discovery & Enumeration | **Nmap** | Port scanning, service detection, OS identification |
+| Web Assessment | **Nikto** | Detect misconfigurations, outdated components, missing headers |
+| Vulnerability Mapping | **Nuclei** | Automated CVE template scanning, confirmation of known exploits |
+| Reporting | **Excel / Markdown / Word** | Consolidated results, risk matrix, and executive summary |
 
-Project Overview
 
-This project documents an initial full-port discovery and focused web/service scanning of a Metasploitable host at 192.168.15.133. The goal is to demonstrate the full reconnaissance → vulnerability identification → remediation validation workflow using common open-source tools.
+##  Key Findings (Summary)
+| Category | Example Vulnerability | CVE / Reference | Severity | Framework Mapping |
+|-----------|----------------------|------------------|-----------|-------------------|
+| **Remote Code Execution** | vsFTPd 2.3.4 Backdoor | CVE-2011-2523 | 🔴 Critical | CIS 7.1, NIST PR.IP-1 |
+| **Data Exposure** | Cleartext Transmission (Telnet/FTP) | - | 🔴 High | NIST PR.DS-2 |
+| **Weak Authentication** | Default Credentials (SSH, MySQL) | - | 🔴 High | CIS 5.2 |
+| **Outdated Components** | Apache 2.2.x, Samba 3.x | Multiple CVEs | 🟠 High | CIS 7.1 |
+| **Information Disclosure** | phpinfo.php, Directory Listing | - | 🟡 Medium | CIS 9.2, OWASP A5 |
 
-Tools used
 
-nmap — network discovery, service/version detection, OS fingerprinting
+##  Risk Summary
+| Metric | Description |
+|--------|--------------|
+| **Total Findings** | 14 vulnerabilities identified |
+| **Critical / High** | 8 vulnerabilities requiring immediate remediation |
+| **Frameworks Referenced** | CIS Controls v8, NIST CSF, OWASP Top 10 |
+| **Business Impact** | Risk of system compromise, data theft, or lateral network intrusion |
 
-nuclei — fast templated vulnerability checks (CVEs, misconfigs, exposures)
 
-nikto — web server misconfigurations and information disclosure checks
+##  Recommended Actions
+1. **Immediate Isolation** – Disconnect the vulnerable host from the network until remediated.  
+2. **Patch Management** – Upgrade vsFTPd, Apache, Samba, MySQL, and related dependencies.  
+3. **System Hardening** – Disable Telnet, enforce SSH-only remote access, use encrypted protocols.  
+4. **Access Controls** – Enforce strong authentication and rotate default credentials.  
+5. **Continuous Monitoring** – Implement a SIEM (e.g., Wazuh, Splunk) to detect unauthorized access attempts.  
+6. **Verification Scan** – Conduct follow-up assessment after remediation to validate closure.  
 
-Target
 
-Lab host: 192.168.15.133 (private range — sanitized for public repo)
+## Visuals & Supporting Files
+| File | Description |
+|------|--------------|
+| `metasploitable_executive_summary.pdf` | Executive summary report for management |
 
-What’s included (key highlights)
+| `nmap_scan.txt` | Nmap service and version detection output |
 
-Full-scan outputs (sanitized): nmap_scan_results.md, nikto_scan_results.md, nuclei_scan_results.md.
+<img width="978" height="438" alt="image" src="https://github.com/user-attachments/assets/1294707f-d718-49f8-a358-df0df41a32bb" />
 
-Executive summaries for quick stakeholder reading: *_findings_summary.md.
+| `nikto_scan.txt` | Web server vulnerability results |
 
-Actionable remediation checklists with example commands/configs: *_remediation_checklist.md.
+<img width="1044" height="404" alt="image" src="https://github.com/user-attachments/assets/fbe45c73-5273-4a4a-a8d8-49f0ec80a048" />
 
-Techniques-only exploit summary (no raw exploit code) for learning purposes.
+| `nuclei_report.txt` | Template-based CVE detection output |
 
-Defenses & hardening guidance and verification steps for each high-risk finding.
+<img width="1027" height="415" alt="image" src="https://github.com/user-attachments/assets/bed5aa05-4abf-4361-8a7b-1da79dae8755" />
 
-Top Combined Findings (short)
+| `visual_risk_matrix.png` | Risk severity and priority visualization |
 
-Legacy & cleartext services — Telnet, rsh, rlogin present → credentials exposed in transit.
+<img width="507" height="619" alt="image" src="https://github.com/user-attachments/assets/0450ec38-8af6-4990-af57-017ecff06ab7" />
 
-Outdated software stack — Apache 2.2.8, PHP 5.2.4, MySQL 5.0, PostgreSQL 8.3 — many known CVEs.
 
-Exposed management interfaces — phpMyAdmin, Tomcat (AJP 8009) — Ghostcat (CVE-2020-1938) detected.
+##  Learning Outcomes
+- Strengthened understanding of **vulnerability management lifecycle** — discovery, prioritization, remediation, and validation.  
+- Hands-on application of **offensive and defensive security principles**.  
+- Improved ability to translate technical findings into **business risk language**.  
+- Reinforced **reporting and documentation** skills for audit-ready deliverables.
 
-Default/weak credentials on DBs — PostgreSQL postgres:postgres found → full DB compromise.
 
-Information disclosure — phpinfo.php, directory indexing, server headers, backup files (e.g., #wp-config.php#).
+##  References
+- [CIS Controls v8](https://www.cisecurity.org/controls/)
+- [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)
+- [ProjectDiscovery Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates)
 
-Service-specific critical CVEs — PHP CGI RCE (CVE-2012-1823), distccd CVE-2004-2687, multiple others.
 
-Missing HTTP security headers & unsafe HTTP methods — TRACE enabled, no X-Frame-Options, CSP, HSTS, etc.
+###  Author
+**Lilian Omoike**  
+Cybersecurity Analyst | GRC & Vulnerability Management  
+ Lagos, Nigeria  
 
-Recommended Priority Remediation (summary)
 
-P1 (Immediate)
-
-Isolate host; remove test/backdoor services (bindshell).
-
-Disable Telnet, rsh, rlogin; disable anonymous FTP.
-
-Remove phpinfo and other debug files; restrict phpMyAdmin to admin IPs/VPN.
-
-Change default DB credentials; restrict DB access via pg_hba.conf.
-
-Disable/secure AJP connector or patch Tomcat (Ghostcat).
-
-P2 (Short term)
-
-Upgrade Apache & PHP to supported versions; patch services.
-
-Disable TRACE; add security headers (X-Frame-Options, X-Content-Type-Options, CSP, HSTS).
-
-Disable SMBv1; restrict or remove NFS exports.
-
-P3 (Ongoing)
-
-Implement monitoring (logs, WAF/IDS), scheduled vulnerability scans (nuclei/OS scanners), and a patch management process.
-
-Rebuild hardened VM images (no test/backdoors), maintain baseline images.
-
-For exact commands and configs, see the remediation checklists:
-
-Lab_01_Reconnaissance/nuclei_remediation_checklist.md
-
-Lab_01_Reconnaissance/nikto_remediation_checklist.md
-
-How to reproduce the scans (lab-only)
-
-Example commands used (run from an isolated attacker VM on the same host-only network)
-
-Nmap (full-port, service/version, default scripts, OS)
-
-sudo nmap --privileged -sV -sC -O -p- -oA initial_scan 192.168.15.133
-
-<img width="978" height="438" alt="image" src="https://github.com/user-attachments/assets/8a019ddb-7556-4add-b3ad-22fb44dda701" />
-
-Nuclei (HTTP CVEs & templates)
-
-nuclei -u http://192.168.15.133 -t cves/ -o nuclei_scan_results.txt
-
-nuclei -target http://192.168.15.133 -t /path/to/nuclei-templates/ -o nuclei_full.txt
-
-<img width="1027" height="415" alt="image" src="https://github.com/user-attachments/assets/9c34f128-ef1b-4202-9665-73639dc44833" />
-
-
-
-Nikto (web server test)
-
-nikto -h http://192.168.15.133 -output nikto_results.txt
-
-<img width="1044" height="404" alt="image" src="https://github.com/user-attachments/assets/443f0124-27d0-4f0c-84ba-6125a245b0a2" />
-
-
-Validation & Retest
-
-After applying remediations:
-
-Re-run nmap focused checks on remediated ports: nmap -sV --script vuln -p <ports> <target>.
-
-Re-run nuclei with the same templates to confirm CVEs are no longer detected.
-
-Re-run nikto and perform web app scans (OWASP ZAP/Burp) if applicable.
-
-Record evidence (screenshots, logs) and commit sanitized retest files under Defenses_and_Remediation/.
+> *“Security isn’t just about tools — it’s about awareness, discipline, and continuous improvement.”*
