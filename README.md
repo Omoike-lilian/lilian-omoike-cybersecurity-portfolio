@@ -41,4 +41,4 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 📧 **Contact**  
 **Email:** lilianomoike@gmail.com  
 **LinkedIn:** [linkedin.com/in/lilian-omoike](#)  
-**GitHub Portfolio:** [github.com/lilian-omoike/cybersecurity-portfolio](#)
+**GitHub Portfolio:** (https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/tree/main)](#)
