@@ -60,13 +60,16 @@ The assessment simulated a real-world enterprise audit workflow — from reconna
 
 <img width="978" height="438" alt="image" src="https://github.com/user-attachments/assets/1294707f-d718-49f8-a358-df0df41a32bb" />
 
+
 | `nikto_scan.txt` | Web server vulnerability results |
 
 <img width="1044" height="404" alt="image" src="https://github.com/user-attachments/assets/fbe45c73-5273-4a4a-a8d8-49f0ec80a048" />
 
+
 | `nuclei_report.txt` | Template-based CVE detection output |
 
 <img width="1027" height="415" alt="image" src="https://github.com/user-attachments/assets/bed5aa05-4abf-4361-8a7b-1da79dae8755" />
+
 
 | `visual_risk_matrix.png` | Risk severity and priority visualization |
 
