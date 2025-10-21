@@ -25,7 +25,7 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 ##  SOC & Incident Response Projects
 | Project | Focus | Tools | Summary |
 |----------|-------|-------|----------|
-| [Log Analysis Report](SOC_Analysis/Log_Analysis/README.md) | SIEM & Threat Detection | Splunk, Wireshark, Sysmon | Analyzed system logs and identified anomalies related to CVEs and attack patterns |
+| [Log Analysis Report](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/blob/main/Log%20Analysis/README.md) | SIEM & Threat Detection | Splunk | Analyzed system logs and identified anomalies related to CVEs and attack patterns |
 
 ---
 
