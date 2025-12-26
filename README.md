@@ -38,17 +38,6 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 
 ---
 
-| [Log Analysis Report](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/blob/main/Wazuh_SIEM_Project.md) | SIEM & Threat Detection | Splunk | Analyzed system logs and identified anomalies related to CVEs and attack patterns |
-
----
-
-##  Core Skills Demonstrated
-- Risk identification, scoring, and control evaluation (ISO 31000, NIST CSF)
-- Vulnerability management and web application security testing
-- Quantitative risk modeling (SLE, ARO, ALE, ROI)
-- SIEM log analysis and threat detection
-- Policy compliance and risk reporting
-
 ---
 
 📧 **Contact**  
