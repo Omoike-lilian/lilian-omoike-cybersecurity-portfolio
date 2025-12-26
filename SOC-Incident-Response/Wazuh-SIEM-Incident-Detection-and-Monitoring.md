@@ -42,6 +42,18 @@ The goal was to simulate a real-world SOC environment where security events are 
 - Detected file creation, modification, and deletion events
 - Captured hash changes and timestamps for each event
 
+- 
+<img width="1039" height="406" alt="image" src="https://github.com/user-attachments/assets/73517006-94cc-401c-8198-e4c778eb88ac" />
+
+
+
+<img width="1034" height="376" alt="image" src="https://github.com/user-attachments/assets/9a3b853f-d8e4-4cfa-a475-37af550e9331" />
+
+<img width="975" height="348" alt="image" src="https://github.com/user-attachments/assets/3a4b50b6-199d-427d-bae4-d0ce690727dd" />
+
+
+
+
 *Example Events Detected:*
 - Modification of financial forecast documents
 - Temporary file creation during document editing
@@ -55,6 +67,11 @@ The goal was to simulate a real-world SOC environment where security events are 
 - Enabled vulnerability detection on the Windows endpoint
 - Identified critical, high, medium, and low severity CVEs
 - Observed vulnerability trends by OS, package, and CVSS score
+
+- <img width="1039" height="406" alt="image" src="https://github.com/user-attachments/assets/70ecfb60-5b56-4d40-8270-59e341f5855e" />
+
+<img width="975" height="421" alt="image" src="https://github.com/user-attachments/assets/bb8007ff-72af-4878-b6aa-371bb93423f4" />
+
 
 *Findings:*
 - High concentration of vulnerabilities tied to OS version
@@ -82,6 +99,13 @@ Mapped security findings to compliance frameworks including:
 - *NIST 800-53*
 - *HIPAA*
 - *PCI DSS*
+
+- GDPR Dashboard <img width="975" height="384" alt="image" src="https://github.com/user-attachments/assets/2b59bc5a-79be-407f-9472-01d1daf51b66" />
+
+
+HIPAA Dashboard <img width="975" height="384" alt="image" src="https://github.com/user-attachments/assets/bdf850f8-8b4b-45b6-bce9-1ba9f1e4a366" />
+
+
 
 Reviewed control gaps across areas such as:
 - Configuration Management
