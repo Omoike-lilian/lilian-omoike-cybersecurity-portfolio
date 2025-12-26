@@ -26,6 +26,7 @@ Here, I document practical projects that demonstrate my hands-on experience acro
 | Project | Focus | Tools | Summary |
 |----------|-------|-------|----------|
 | [Log Analysis Report](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/blob/main/Log%20Analysis/README.md) | SIEM & Threat Detection | Splunk | Analyzed system logs and identified anomalies related to CVEs and attack patterns |
+| [Wazuh SIEM](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/blob/main/Wazuh_SIEM_Project.md) | Web Application Security | Burp Suite, OWASP | Mapped vulnerabilities to OWASP Top 10 with remediation recommendations |
 
 ---
 
