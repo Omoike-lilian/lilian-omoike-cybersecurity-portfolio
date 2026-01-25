@@ -1,6 +1,6 @@
-# 🧠 Wazuh SIEM Deployment & Analysis Project
+# Wazuh SIEM Deployment & Analysis Project
 
-## 📘 Overview
+##  Overview
 This project documents the **setup, configuration, and analysis** of a Wazuh Security Information and Event Management (SIEM) system within a simulated enterprise environment.  
 
 The deployment focused on:
@@ -15,43 +15,43 @@ This project showcases both **technical** and **analytical** skills across cyber
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 **Wazuh Server:** Ubuntu 22.04 LTS (VMware Workstation)  
 **Wazuh Agent:** Windows 11 Pro (Monitored endpoint)  
 **Network Configuration:** Switched from NAT ➜ Bridged Adapter for inter-VM communication  
 **Remote Access:** Secure SSH and dashboard management via *MobaXterm*
 
-### 🧩 Challenges Overcome
+### Challenges Overcome
 - Resolved LVM/VG storage allocation errors (“No space left on device”)  
 - Fixed network reachability and bridged networking issues  
 - Recovered dashboard access and performed password reset after interrupted installation  
 
 ---
 
-## 🔍 Key Features Configured
+## Key Features Configured
 
-### 🧾 File Integrity Monitoring (FIM)
+### File Integrity Monitoring (FIM)
 - Tracked unauthorized modifications to sensitive files such as financial reports.  
 - Generated alerts for file creation, deletion, and checksum changes.  
 - **Example:** Detected deletion and modification of `Q4_Financial_Forecast.docx`.  
 
 ---
 
-### ⚠️ Vulnerability Detection
+### Vulnerability Detection
 - Identified critical vulnerabilities (CVEs) affecting Windows 11 and third-party software (e.g., VirtualBox).  
 - Highlighted risks by severity (Critical, High, Medium, Low).  
 - Mapped findings to **MITRE ATT&CK** tactics: Defense Evasion, Persistence, Privilege Escalation.  
 
 ---
 
-### 🧮 Configuration Assessment
+### Configuration Assessment
 - Performed **CIS Benchmark scan** for Windows 11 Enterprise v3.0.0.  
 - Reported 26% compliance score (125 controls passed, 352 failed).  
 - Pinpointed control gaps for hardening and configuration improvements.  
 
 ---
 
-### 📊 Compliance Mapping
+###  Compliance Mapping
 Mapped Wazuh alerts to major frameworks:  
 
 | Framework | Controls Referenced | Focus Area |
@@ -62,7 +62,7 @@ Mapped Wazuh alerts to major frameworks:
 
 ---
 
-## 🔒 Risk & Control Insights
+##  Risk & Control Insights
 | Category | Description |
 |-----------|-------------|
 | **Risk Identified** | Unauthorized modification of financial documents |
@@ -73,7 +73,7 @@ Mapped Wazuh alerts to major frameworks:
 
 ---
 
-## 📈 Metrics for Reporting
+##  Metrics for Reporting
 1. Number of integrity alerts triggered per time frame  
 2. Count of critical vulnerabilities by severity and host  
 3. Compliance score trend (pre- vs post-hardening)
@@ -83,7 +83,7 @@ Wazuh centralizes log collection, enabling easier audit, visibility, and reporti
 
 ---
 
-## 🧠 Lessons Learned
+## Lessons Learned
 - SIEM deployment demands patience, troubleshooting, and structured configuration.  
 - Disk space allocation and volume management directly impact system stability.  
 - Bridged networking is crucial for effective inter-VM log communication.  
@@ -91,12 +91,12 @@ Wazuh centralizes log collection, enabling easier audit, visibility, and reporti
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 **Wazuh 4.12.0** · **VMware Workstation** · **Ubuntu Server** · **Windows 11 Pro** · **MobaXterm** · **OpenSSH** · **CIS Benchmark** · **NIST 800-53** · **PCI DSS** · **HIPAA**
 
 ---
 
-## 📸 Optional Enhancements
+## Optional Enhancements
 If allowed, add screenshots such as:
 - Dashboard Overview  
 - File Integrity Alert Example  
