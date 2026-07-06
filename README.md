@@ -15,6 +15,7 @@ Welcome to my cybersecurity portfolio! Here I document practical, hands-on proje
 A fully automated, cloud-native GRC platform deployed on AWS using Infrastructure as Code, demonstrating enterprise-grade compliance monitoring, risk management, and audit-ready infrastructure across **6 industry-standard frameworks** with zero manual intervention after deployment.
 
 **The problem:** Manual GRC processes can cost organizations up to $280,000/year, and non-compliant organizations face fines up to 3x higher than compliant ones.
+
 **The solution:** An automated AWS platform that cuts GRC costs by ~93% from ~$280,000/year to ~$500/year.
 
 **Key features:**
