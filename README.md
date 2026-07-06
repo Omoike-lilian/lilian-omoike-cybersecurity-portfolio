@@ -24,7 +24,7 @@ A fully automated, cloud-native GRC platform deployed on AWS using Infrastructur
 - Enterprise security: KMS encryption, VPC isolation, IAM least privilege, CloudTrail + AWS Config audit trail
 - 22/22 automated tests passing across 8 test classes
 
-**Stack:** AWS CloudFormation (IaC) Â· RDS MySQL 8.0.40 Â· DynamoDB Â· Lambda (Python 3.11) Â· S3 Â· KMS Â· CloudTrail Â· AWS Config Â· EventBridge Â· CloudWatch Â· SNS Â· IAM Â· VPC
+**Stack:** AWS CloudFormation (IaC) · RDS MySQL 8.0.40 · DynamoDB · Lambda (Python 3.11) · S3 · KMS · CloudTrail · AWS Config · EventBridge · CloudWatch · SNS · IAM · VPC
 
 **Repo:** [AWS Integrated GRC Platform’](https://github.com/Omoike-lilian/aws-grc-platform)
 
