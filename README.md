@@ -2,13 +2,13 @@
 
 Welcome to my cybersecurity portfolio! Here I document practical, hands-on projects across **GRC (Governance, Risk & Compliance)**, **Security Operations (SOC)**, and **Vulnerability Management**.
 
-ðŸ“§ **Email:** lilianomoike@gmail.com
-ðŸ”— **LinkedIn:** [linkedin.com/in/lilian-omoike](https://www.linkedin.com/in/lilian-omoike/)
-ðŸ’» **GitHub:** [github.com/Omoike-lilian](https://github.com/Omoike-lilian)
+**Email:** lilianomoike@gmail.com
+**LinkedIn:** [linkedin.com/in/lilian-omoike](https://www.linkedin.com/in/lilian-omoike/)
+ **GitHub:** [github.com/Omoike-lilian](https://github.com/Omoike-lilian)
 
 ---
 
-## ðŸ† Featured Project: AWS Integrated GRC Platform (Capstone)
+† Featured Project: AWS Integrated GRC Platform (Capstone)
 
 **Governance â€¢ Risk â€¢ Compliance â€” Cloud-Native Automation on AWS**
 
