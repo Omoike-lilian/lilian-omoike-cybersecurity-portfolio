@@ -8,7 +8,7 @@ Welcome to my cybersecurity portfolio! Here I document practical, hands-on proje
 
 ---
 
-† Featured Project: AWS Integrated GRC Platform (Capstone)
+ Featured Project: AWS Integrated GRC Platform (Capstone)
 
 **Governance, Risk & Compliance | Cloud-Native Automation on AWS**
 
@@ -38,14 +38,14 @@ A fully automated, cloud-native GRC platform deployed on AWS using Infrastructur
 | **[TechStart Risk Assessment](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/tree/main/TechStart)** | GRC Case Study | ISO 31000, NIST CSF | Evaluated 10 risks and proposed mitigations for a fintech organization |
 | **[TechFlow Assessment](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/tree/main/TechFlow)** | Business Risk Evaluation | NIST 800-30 | Performed risk rating and mitigation plan for cloud-based systems |
 
-##  Vulnerability & Threat Analysis
+## Vulnerability & Threat Analysis
 
 | Project | Focus | Tools | Summary |
 |---|---|---|---|
 | **[Metasploitable Assessment](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/tree/main/Metasploitable%20Lab)** | Host Vulnerability Scanning | Nmap, Nuclei, Nikto | Identified critical CVEs, mapped to CIS and NIST, and produced a mitigation plan |
 | **[Critical OWASP Top 10 Analysis](https://github.com/Omoike-lilian/lilian-omoike-cybersecurity-portfolio/tree/main/OWASP_Lab)** | Web Application Security | Burp Suite, OWASP | Mapped vulnerabilities to the OWASP Top 10 with remediation recommendations |
 
-##  SOC & Incident Response Projects
+## SOC & Incident Response Projects
 
 | Project | Focus | Tools | Summary |
 |---|---|---|---|
@@ -72,4 +72,4 @@ A fully automated, cloud-native GRC platform deployed on AWS using Infrastructur
 
 ---
 
-ðŸ“§ **Contact:** lilianomoike@gmail.com | [LinkedIn](https://www.linkedin.com/in/lilian-omoike/) | [GitHub](https://github.com/Omoike-lilian)
+**Contact:** lilianomoike@gmail.com | [LinkedIn](https://www.linkedin.com/in/lilian-omoike/) | [GitHub](https://github.com/Omoike-lilian)
